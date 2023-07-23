@@ -20,7 +20,7 @@ Funcionamento por cima
 
 Isso seria o sistema por cima para mais informações entrar em contato comigo.
 
-Abaixo exemplos da tela do sistema
+Abaixo exemplos de telas do sistema
 
 ![tela exemplo midraj](https://github.com/Art-Dias/000-Midraj/assets/100294052/498a5203-939e-4f35-9a61-1c10a1142dc7)
 ![tela exemplo midraj 00](https://github.com/Art-Dias/000-Midraj/assets/100294052/f72d7ab3-5b82-41d9-850c-0028111db908)
