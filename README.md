@@ -8,10 +8,15 @@ Midraj é um sistema de estoque para restaurantes, coma ideia principa de manter
 
 Todas as informações dele são conectadas a um DB hospedado na Hostinger.
 
+
 Funcionamento por cima
+
 -Atualmente consiste em gerar um cardápio onde cada item tem um gasto especifico.
+
 -Ao resgistrar a saida de um prato o estoque será atualizado automaticamente.
+
 -Sistema faz o envio do estoque em um formato de planilha ao e-mail, atraves de um botão.
+
 
 Isso seria o sistema por cima para mais informações entrar em contato comigo.
 
