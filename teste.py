@@ -234,11 +234,11 @@ class MyMainWindow(QMainWindow, Ui_MainWindow):
         try:
             # PEGANDO INFORMAÇÕES DO ESTOQUE
             # database connection
-            connection = pymysql.connect(host="sql886.main-hosting.eu",
-                                         port=3306,
-                                         user="u147843696_Teste",
-                                         passwd="Teste12345",
-                                         database="u147843696_Teste")
+            connection = pymysql.connect(host="Here I connect with my database",
+                                         port=0000,
+                                         user="user",
+                                         passwd="password",
+                                         database="database")
             cursor = connection.cursor()
 
             ## ESCREVER COMANDOS AQUI
@@ -293,9 +293,9 @@ class MyMainWindow(QMainWindow, Ui_MainWindow):
             # 1- STARTAR O SERVIDOR
             ##############################################
             host = "smtp.gmail.com"
-            port = 587
-            login = "midrajsistema@gmail.com"
-            senha = "cjjmlrqeawrrlfcj"
+            port = 000
+            login = "exemplo@gmail.com"
+            senha = "senha"
 
             server = smtplib.SMTP(host, port)
 
@@ -309,7 +309,7 @@ class MyMainWindow(QMainWindow, Ui_MainWindow):
 
             email_msg = MIMEMultipart()
             email_msg['From'] = login
-            email_msg['To'] = "arthur.1055@hotmail.com"
+            email_msg['To'] = "teste@hotmail.com"
             email_msg['Subject'] = "Email enviado por Arthur"
             email_msg.attach(MIMEText(corpo, 'plain'))
 
@@ -341,11 +341,11 @@ class MyMainWindow(QMainWindow, Ui_MainWindow):
     def listar_dados(self):
 
         # database connection
-        connection = pymysql.connect(host="sql886.main-hosting.eu",
-                                     port=3306,
-                                     user="u147843696_Teste",
-                                     passwd="Teste12345",
-                                     database="u147843696_Teste")
+        connection = pymysql.connect(host="Here I connect with my database",
+                                         port=0000,
+                                         user="user",
+                                         passwd="password",
+                                         database="database")
         cursor = connection.cursor()
 
         ## ESCREVER COMANDOS AQUI
@@ -376,11 +376,11 @@ class MyMainWindow(QMainWindow, Ui_MainWindow):
         print(f"{nome}, {quantidade}")
 
         # database connection
-        connection = pymysql.connect(host="sql886.main-hosting.eu",
-                                     port=3306,
-                                     user="u147843696_Teste",
-                                     passwd="Teste12345",
-                                     database="u147843696_Teste")
+        connection = pymysql.connect(host="Here I connect with my database",
+                                         port=0000,
+                                         user="user",
+                                         passwd="password",
+                                         database="database")
         cursor = connection.cursor()
 
         ## ESCREVER COMANDOS AQUI
@@ -464,11 +464,11 @@ class MyMainWindow(QMainWindow, Ui_MainWindow):
         nome = self.nomeItemPesquisarTabelaMercadorias.text().lower()
 
         # database connection
-        connection = pymysql.connect(host="sql886.main-hosting.eu",
-                                     port=3306,
-                                     user="u147843696_Teste",
-                                     passwd="Teste12345",
-                                     database="u147843696_Teste")
+        connection = pymysql.connect(host="Here I connect with my database",
+                                         port=0000,
+                                         user="user",
+                                         passwd="password",
+                                         database="database")
         cursor = connection.cursor()
         ##
 
@@ -495,11 +495,11 @@ class MyMainWindow(QMainWindow, Ui_MainWindow):
             preco_float = preco.replace(',', '.')
 
             # database connection
-            connection = pymysql.connect(host="sql886.main-hosting.eu",
-                                         port=3306,
-                                         user="u147843696_Teste",
-                                         passwd="Teste12345",
-                                         database="u147843696_Teste")
+            connection = pymysql.connect(host="Here I connect with my database",
+                                         port=0000,
+                                         user="user",
+                                         passwd="password",
+                                         database="database")
             cursor = connection.cursor()
 
             # CREATE
@@ -586,11 +586,11 @@ class MyMainWindow(QMainWindow, Ui_MainWindow):
             '''
 
             # database connection
-            connection = pymysql.connect(host="sql886.main-hosting.eu",
-                                         port=3306,
-                                         user="u147843696_Teste",
-                                         passwd="Teste12345",
-                                         database="u147843696_Teste")
+            connection = pymysql.connect(host="Here I connect with my database",
+                                         port=0000,
+                                         user="user",
+                                         passwd="password",
+                                         database="database")
             cursor = connection.cursor()
 
             ## ESCREVER COMANDOS AQUI
@@ -659,11 +659,11 @@ class MyMainWindow(QMainWindow, Ui_MainWindow):
             print(f'{quantidadeSaindo_int} quantidade saindo')
 
             # database connection
-            connection = pymysql.connect(host="sql886.main-hosting.eu",
-                                         port=3306,
-                                         user="u147843696_Teste",
-                                         passwd="Teste12345",
-                                         database="u147843696_Teste")
+            connection = pymysql.connect(host="Here I connect with my database",
+                                         port=0000,
+                                         user="user",
+                                         passwd="password",
+                                         database="database")
             cursor = connection.cursor()
 
             ## ESCREVER COMANDOS AQUI
@@ -697,11 +697,11 @@ class MyMainWindow(QMainWindow, Ui_MainWindow):
                 medida_ingrediente = lista_ingredientes[2]
 
                 # database connection
-                connection = pymysql.connect(host="sql886.main-hosting.eu",
-                                             port=3306,
-                                             user="u147843696_Teste",
-                                             passwd="Teste12345",
-                                             database="u147843696_Teste")
+                connection = pymysql.connect(host="Here I connect with my database",
+                                         port=0000,
+                                         user="user",
+                                         passwd="password",
+                                         database="database")
                 cursor = connection.cursor()
 
                 ## ESCREVER COMANDOS AQUI
@@ -721,11 +721,11 @@ class MyMainWindow(QMainWindow, Ui_MainWindow):
                 medida_ingrediente = lista_ingredientes[2]
 
                 # database connection
-                connection = pymysql.connect(host="sql886.main-hosting.eu",
-                                             port=3306,
-                                             user="u147843696_Teste",
-                                             passwd="Teste12345",
-                                             database="u147843696_Teste")
+                connection = pymysql.connect(host="Here I connect with my database",
+                                         port=0000,
+                                         user="user",
+                                         passwd="password",
+                                         database="database")
                 cursor = connection.cursor()
 
                 ## ESCREVER COMANDOS AQUI
@@ -756,11 +756,11 @@ class MyMainWindow(QMainWindow, Ui_MainWindow):
                 medida_ingrediente = lista_ingredientes[2]
 
                 # database connection
-                connection = pymysql.connect(host="sql886.main-hosting.eu",
-                                             port=3306,
-                                             user="u147843696_Teste",
-                                             passwd="Teste12345",
-                                             database="u147843696_Teste")
+                connection = pymysql.connect(host="Here I connect with my database",
+                                         port=0000,
+                                         user="user",
+                                         passwd="password",
+                                         database="database")
                 cursor = connection.cursor()
 
                 ## ESCREVER COMANDOS AQUI
@@ -804,11 +804,11 @@ class MyMainWindow(QMainWindow, Ui_MainWindow):
                 medida_ingrediente = lista_ingredientes[2]
 
                 # database connection
-                connection = pymysql.connect(host="sql886.main-hosting.eu",
-                                             port=3306,
-                                             user="u147843696_Teste",
-                                             passwd="Teste12345",
-                                             database="u147843696_Teste")
+                connection = pymysql.connect(host="Here I connect with my database",
+                                         port=0000,
+                                         user="user",
+                                         passwd="password",
+                                         database="database")
                 cursor = connection.cursor()
 
                 ## ESCREVER COMANDOS AQUI
@@ -864,11 +864,11 @@ class MyMainWindow(QMainWindow, Ui_MainWindow):
                 medida_ingrediente = lista_ingredientes[2]
 
                 # database connection
-                connection = pymysql.connect(host="sql886.main-hosting.eu",
-                                             port=3306,
-                                             user="u147843696_Teste",
-                                             passwd="Teste12345",
-                                             database="u147843696_Teste")
+                connection = pymysql.connect(host="Here I connect with my database",
+                                         port=0000,
+                                         user="user",
+                                         passwd="password",
+                                         database="database")
                 cursor = connection.cursor()
 
                 ## ESCREVER COMANDOS AQUI
@@ -975,11 +975,11 @@ class MyMainWindow(QMainWindow, Ui_MainWindow):
 
     def listar_itens_cardapio_para_sair(self):
         # database connection
-        connection = pymysql.connect(host="sql886.main-hosting.eu",
-                                     port=3306,
-                                     user="u147843696_Teste",
-                                     passwd="Teste12345",
-                                     database="u147843696_Teste")
+        connection = pymysql.connect(host="Here I connect with my database",
+                                         port=0000,
+                                         user="user",
+                                         passwd="password",
+                                         database="database")
         cursor = connection.cursor()
 
         ## ESCREVER COMANDOS AQUI
@@ -1044,11 +1044,11 @@ class MyMainWindow(QMainWindow, Ui_MainWindow):
         nome = self.nomeItemPesquisarParaSaida.text().lower()
 
         # database connection
-        connection = pymysql.connect(host="sql886.main-hosting.eu",
-                                     port=3306,
-                                     user="u147843696_Teste",
-                                     passwd="Teste12345",
-                                     database="u147843696_Teste")
+        connection = pymysql.connect(host="Here I connect with my database",
+                                         port=0000,
+                                         user="user",
+                                         passwd="password",
+                                         database="database")
         cursor = connection.cursor()
         ##
 
@@ -1130,11 +1130,11 @@ class MyMainWindow(QMainWindow, Ui_MainWindow):
             medida = 'gramas'
 
         # database connection
-        connection = pymysql.connect(host="sql886.main-hosting.eu",
-                                     port=3306,
-                                     user="u147843696_Teste",
-                                     passwd="Teste12345",
-                                     database="u147843696_Teste")
+        connection = pymysql.connect(host="Here I connect with my database",
+                                         port=0000,
+                                         user="user",
+                                         passwd="password",
+                                         database="database")
         cursor = connection.cursor()
 
         ## ESCREVER COMANDOS AQUI
@@ -1171,11 +1171,11 @@ class MyMainWindow(QMainWindow, Ui_MainWindow):
             medida = 'gramas'
 
         # database connection
-        connection = pymysql.connect(host="sql886.main-hosting.eu",
-                                     port=3306,
-                                     user="u147843696_Teste",
-                                     passwd="Teste12345",
-                                     database="u147843696_Teste")
+        connection = pymysql.connect(host="Here I connect with my database",
+                                         port=0000,
+                                         user="user",
+                                         passwd="password",
+                                         database="database")
         cursor = connection.cursor()
 
         ## ESCREVER COMANDOS AQUI
@@ -1197,11 +1197,11 @@ class MyMainWindow(QMainWindow, Ui_MainWindow):
 
     def listar_cardapio(self):
         # database connection
-        connection = pymysql.connect(host="sql886.main-hosting.eu",
-                                     port=3306,
-                                     user="u147843696_Teste",
-                                     passwd="Teste12345",
-                                     database="u147843696_Teste")
+        connection = pymysql.connect(host="Here I connect with my database",
+                                         port=0000,
+                                         user="user",
+                                         passwd="password",
+                                         database="database")
         cursor = connection.cursor()
 
         ## ESCREVER COMANDOS AQUI
